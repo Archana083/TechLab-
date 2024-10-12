@@ -519,7 +519,6 @@ Regular Content
 	line-height: 130%;
 }
 
-
 .ftr_txt h2 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
@@ -1733,6 +1732,10 @@ align-items: center;
     padding: 3px;
 
 }
+.ftr_menu ul{
+	list-style-type: none !important;
+}
+
 @media only screen and (max-width:1920px) {}
 
 @media only screen and (max-width:1600px) {}
