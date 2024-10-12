@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+	max-width:100%;
+	width:100%;
+	position:relative;
+}
+
+
+#contactForm {
+	padding:1px 0px 15px 0px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 1px;
+	margin-left: 0;
+}
+
+
+#contactForm h3 {
+	color: #0066cc;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contactForm h4 {
+	margin:0px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+.fieldset2 {
+    display: block !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+    -webkit-padding-before: 0em !important;
+    -webkit-padding-start: 0em !important;
+    -webkit-padding-end: 0em !important;
+    -webkit-padding-after: 0em !important;
+    min-width: -webkit-min-content !important;
+    border-width: 0px !important;
+    border-style: groove !important;
+    border-color: threedface !important;
+    border-image: initial !important;
+}
+
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm input[type="url"], #contactForm textarea {
+	width:48%;
+	border:1px solid #fff;
+	margin:1%;
+	float:left;
+	padding:12px 10px;
+	font-family:'PoppiNs', sans-serif;
+	border-radius: 6px;
+	font-size:14px !important;
+	border-radius:5px;
+}
+
+#contactForm input[name="subject"]{
+	width:98% !important;
+}
+
+.cont_form{
+	width: 48%;
+    position: absolute;
+    right: 4%;
+    background: #fff;
+    padding: 2%;
+    border-radius: 12px;
+    /* min-height: 500px; */
+}
+
+#contactForm textarea {
+	width:98%;
+	height:100px;
+	border:1px solid #fff;
+	margin:1%;
+	padding:12px 10px;
+	border-radius: 3px;
+	border-radius:5px;
+}
+
+#contactForm select {
+	width:100% !important;
+	border:1px solid #e5e5e5 !important;
+	margin:0 0 0px;
+	padding:12px 10px;
+	font-family: 'PoppiNs', sans-serif;
+	border-radius: 3px;
+}
+
+#contactForm button[type="submit"] {
+	cursor:pointer;
+    /* width: 544px; */
+	border:none;
+	font-size:18px !important;
+	background:#b91202 !important;
+	color:#fff !important;
+	font-family:'PoppiNs', sans-serif;
+	padding:14px 12px;
+	font-weight:500;
+	font-size:14px;
+	margin: 3px 0px 10px 1%;
+	border: 0px solid;
+    border-radius: 5px;
+	text-transform:uppercase;
+}
+
+#contactForm button[type="submit"]:hover {
+	background:#a00e01 !important;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+	color: #fff !important;
+}
+
+
+#contactForm button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contactForm input:focus, #contactForm textarea:focus {
+	outline:0;
+	border:1px solid #e5e5e5;
+}
+::-webkit-input-placeholder {
+	color:#000000a4 !important;
+	font-size:15px !important;
+	font-family: sans-serif, "Poppins";
+}
+:-moz-placeholder {
+	color:#000 !important;
+	font-size:13px !important;
+}
+::-moz-placeholder {
+	color:#000 !important;
+	font-size:13px !important;
+}
+:-ms-input-placeholder {
+	color:#000 !important;
+	font-size:13px !important;
+}
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm input[type="number"], #contactForm input[type="url"], #contactForm textarea{
+	border:1px solid #dcdcdc !important;
+	font-size:14px !important;
+	color:#020202 !important;
+	border-radius:4px !important;
+}
+
+
+.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="number"], .contact_form input[type="url"], .contact_form textarea {
+    font-size: 16px !important;
+    color: #020202c5 !important;
+    border-radius: 4px !important;
+    background: #f5f4fa;
+	border: 0 !important;
+	outline: none;
+	font-weight: 400 !important;
+}
+
+.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="url"], .contact_form textarea {
+    width: 48%;
+	margin: 1% 1% 3% 1% !important;
+    float: left;
+    padding: 18px 10px !important;
+    font-family: 'PoppiNs', sans-serif;
+    border-radius: 6px;
+    font-size: 15px !important;
+    border-radius: 5px;
+	outline: none;
+	font-weight: 400 !important;
+}
+
+.contact_form input[name="subject"] {
+    width: 98% !important;
+	outline: none;
+	font-weight: 500 !important;
+}
+.contact_form textarea {
+    width: 98%;
+    height: 100px;
+    margin: 1%;
+    padding: 18px 10px !important;
+	outline: none;
+	font-weight: 500 !important;
+}
+.contact_form button{
+	font-size: 19px;
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    margin-left: 1%;
+    padding: 17px 24px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background: #b91202;
+ }
+@media only screen and (max-width:720px){
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm input[type="url"], #contactForm textarea {
+	width:98%;
+}
+}
